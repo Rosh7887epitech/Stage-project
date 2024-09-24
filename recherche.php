@@ -14,7 +14,6 @@ if (!$conn) {
     die("Connexion échouée: " . pg_last_error());
 }
 
-// Récupération des paramètres de la requête GET
 $query = isset($_GET['query']) ? htmlspecialchars($_GET['query']) : '';
 $filter = isset($_GET['filter']) ? htmlspecialchars($_GET['filter']) : 'all';
 $theme = isset($_GET['theme']) ? htmlspecialchars($_GET['theme']) : 'all';
