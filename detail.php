@@ -1,10 +1,10 @@
 <?php
 // Informations de connexion à la base de données
-$host = "SV-PROD-202"; // Nom de l'hôte du serveur de base de données
-$port = "5432"; // Port de connexion à la base de données
-$dbname = "geo_test"; // Nom de la base de données
-$user = "postgres"; // Nom d'utilisateur pour la connexion
-$password = "-u}488LG59qw;1"; // Mot de passe pour la connexion
+$host = ""; // Nom de l'hôte du serveur de base de données
+$port = ""; // Port de connexion à la base de données
+$dbname = ""; // Nom de la base de données
+$user = ""; // Nom d'utilisateur pour la connexion
+$password = ""; // Mot de passe pour la connexion
 // Connexion à la base de données PostgreSQL
 $conn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
 // Vérification de la connexion
